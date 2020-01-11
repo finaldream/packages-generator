@@ -1,0 +1,35 @@
+{
+    "name": "finaldream/packages-generator",
+    "description": "Simple packages.json generator for Composer",
+    "type": "package",
+    "license": "MIT",
+    "version": "1.0.0",
+    "keywords": [
+        "packages",
+        "packages.json",
+        "repository",
+        "composer",
+        "zip"
+    ],
+    "readme": "/README.md",
+    "homepage": "https://github.com/finaldream/packages-generator",
+    "authors": [
+        {
+            "name": "Oliver Erdmann",
+            "email": "o.erdmann@finaldream.de"
+        }
+    ],
+    "bin": [
+        "bin/pkggen"
+    ],
+    "archive": {
+        "exclude": [
+            "/.gitignore"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+            "": ""
+        }
+    }
+}
